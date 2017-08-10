@@ -14,7 +14,7 @@ Save the following server in example.js:
 var net = require('net');
 
 // SERVER ADRESS
-var svraddr = 'localhost';
+var svraddr = '0.0.0.0';
 // SERVER PORT
 var svrport = 8000;
 
