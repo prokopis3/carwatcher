@@ -16,7 +16,7 @@ var net = require('net');
 // SERVER ADRESS
 var svraddr = 'localhost';
 // SERVER PORT
-var svrport = 8080;
+var svrport = 8000;
 
 var TcpSocketServer = function () {
     function TcpSocketServer() {

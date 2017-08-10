@@ -2,7 +2,7 @@
 
         var options = {
             'debug'                 : true,
-            'port'                  : 8080,
+            'port'                  : 8000,
             'device_adapter'        : "TK102"
         }
 
