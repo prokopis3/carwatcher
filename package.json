@@ -60,7 +60,7 @@
     "production": "node build/bin/www"
   },
   "engines": {
-    "node": "8.2.1"
+    "node": "^8.2.1"
   },
   "repository": {
     "type": "git",
