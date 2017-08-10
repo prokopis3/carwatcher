@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base href="/">
+    <title>Scotch Pets</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <!-- Bower Components Bootstrap -->
+    <!-- <link rel="stylesheet"  type="text/css" href="styles/bs/bootstrap.min.css">    -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles/bs/font-awesome.min.css">   -->
+
+    <!-- JQuery -->
+    <!-- <script src="components/jquery/dist/jquery.min.js"></script>  -->
+    
+    <!-- Material Design Lite CSS library  -->
+    <!-- <link rel="stylesheet" href="components/material-design-lite/material.min.css"> -->
+    
+    <!-- Material Design Lite JavaScript library  -->
+    <!--<script src="components/material-design-lite/material.min.js"></script>-->
+    
+    <!-- Material Design Lite Icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link type="application/x-font-woff" href="fonts/">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300"> 
+
+    <!-- Material Design Angular -->
+      <!-- <link href="styles/bs/indigo-pink.min.css" rel="stylesheet">   -->
+    <!-- Leaflet Maps CSS library -->
+     <!-- <link href="styles/bs/leaflet.min.css" rel="stylesheet">   -->
+
+    <!-- Custom Style  -->
+     <link rel="stylesheet" type="text/css" href="styles/app.min.css"> 
+    
+    <!-- Polyfill(s) for older browsers -->
+    <script src="/socket.io/socket.io.js"></script>
+     
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>  
+    
+    <script src="gl1.js"></script>
+    <script src="gl2.js"></script> 
+     <!-- <script src="systemjs.config.js"></script>   -->
+    <!-- <script src="gl3.js"></script> -->
+    <!-- <script src="app/ang4.min.js"></script>  -->
+    <script>
+      System.import('app').catch( (err) => { console.error(err) })
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+</html>
