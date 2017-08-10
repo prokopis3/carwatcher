@@ -59,6 +59,9 @@
     "dev": "node ./bin/www",
     "production": "node build/bin/www"
   },
+  "engines": {
+    "node": "8.2.1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/AntoniadisCorp/safecar.git"
